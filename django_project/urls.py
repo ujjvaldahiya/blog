@@ -46,6 +46,7 @@ urlpatterns = [
              template_name='users/password_reset_complete.html'
          ),
          name='password_reset_complete'),
+    path('change-password/',user_views.change_password, name="change_password"),
     path('', include('blog.urls')),
 ]
 if settings.DEBUG:
