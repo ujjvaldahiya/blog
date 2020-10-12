@@ -1,4 +1,3 @@
-# blog
 Minor Project
 
 Dependencies: 
